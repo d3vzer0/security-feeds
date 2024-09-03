@@ -1,0 +1,74 @@
+- name: Bleeping Computers
+  type: rss
+  category: news
+  src: http://www.bleepingcomputer.com/feed/
+
+- name: Cyber Scoop
+  type: rss
+  category: news
+  src: https://www.cyberscoop.com/feed/
+
+- name: Dark Reading
+  type: rss
+  category: news
+  src: http://www.darkreading.com/rss/all.xml
+
+- name: Krebs on Security
+  type: rss
+  category: news
+  tags:
+    - headlines
+    - blog
+  src: http://krebsonsecurity.com/feed/
+
+- name: PacketStorm Headlines
+  type: rss
+  category: news
+  tags:
+    - headlines
+  src: http://packetstormsecurity.org/headlines.xml
+
+- name: Schneider On Security
+  type: rss
+  category: news
+  tags:
+    - blog
+  src: http://www.schneier.com/blog/index.rdf
+
+- name: Security Affairs
+  type: rss
+  category: news
+  tags:
+    - ransomware
+    - headlines
+    - actors
+  src: http://securityaffairs.co/wordpress/feed
+
+- name: Qualys
+  type: rss
+  category: news
+  tags:
+    - vendor
+    - headlines
+  src: https://community.qualys.com/blogs/securitylabs/feeds/posts
+
+- name: Security Week
+  type: rss
+  category: news
+  src: http://feeds.feedburner.com/Securityweek
+
+- name: The Hacker News
+  type: rss
+  category: news
+  tags:
+    - news
+    - ransomware
+  src: http://thehackernews.com/feeds/posts/default
+
+- name: Trend Micro
+  type: rss
+  category: news
+  tags:
+    - vendor
+    - headlines
+  src: http://feeds.trendmicro.com/TrendMicroSimplySecurity
