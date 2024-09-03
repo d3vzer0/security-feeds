@@ -72,3 +72,14 @@
     - vendor
     - headlines
   src: http://feeds.trendmicro.com/TrendMicroSimplySecurity
+
+- name: Mandiant
+  type: rss
+  category: news
+  tags:
+    - vendor
+    - analysis
+    - threatactors
+    - vulnerabilities
+  src: https://www.mandiant.com/resources/blog/rss.xml
+
