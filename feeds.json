@@ -1,5 +1,12 @@
 [
     {
+        "name": "DLT Releases",
+        "type": "rss",
+        "category": "github_releases",
+        "src": "https://github.com/dlt-hub/dlt/releases.atom",
+        "has_content": true
+    },
+    {
         "name": "Bleeping Computers",
         "type": "rss",
         "category": "security_news",
