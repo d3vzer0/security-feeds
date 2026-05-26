@@ -1,0 +1,9 @@
+[
+    {
+        "name": "DLT Releases",
+        "type": "rss",
+        "category": "github_releases",
+        "src": "https://github.com/dlt-hub/dlt/releases.atom",
+        "has_content": true
+    }
+]
