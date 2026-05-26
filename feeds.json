@@ -2,106 +2,117 @@
     {
         "name": "Bleeping Computers",
         "type": "rss",
-        "category": "news",
-        "src": "http://www.bleepingcomputer.com/feed/"
+        "category": "security_news",
+        "src": "http://www.bleepingcomputer.com/feed/",
+        "has_content": true
     },
     {
         "name": "Cyber Scoop",
         "type": "rss",
-        "category": "news",
-        "src": "https://www.cyberscoop.com/feed/"
+        "category": "security_news",
+        "src": "https://www.cyberscoop.com/feed/",
+        "has_content": false
     },
     {
         "name": "Dark Reading",
         "type": "rss",
-        "category": "news",
+        "category": "security_news",
         "src": "http://www.darkreading.com/rss/all.xml"
     },
     {
         "name": "Krebs on Security",
         "type": "rss",
-        "category": "news",
+        "category": "security_news",
         "tags": [
             "headlines",
             "blog"
         ],
-        "src": "http://krebsonsecurity.com/feed/"
+        "src": "http://krebsonsecurity.com/feed/",
+        "has_content": true
     },
     {
         "name": "PacketStorm Headlines",
         "type": "rss",
-        "category": "news",
+        "category": "security_news",
         "tags": [
             "headlines"
         ],
-        "src": "http://packetstormsecurity.org/headlines.xml"
+        "src": "http://packetstormsecurity.org/headlines.xml",
+        "has_content": true
     },
     {
         "name": "Schneider On Security",
         "type": "rss",
-        "category": "news",
+        "category": "security_news",
         "tags": [
             "blog"
         ],
-        "src": "http://www.schneier.com/blog/index.rdf"
+        "src": "http://www.schneier.com/blog/index.rdf",
+        "has_content": true
     },
     {
         "name": "Security Affairs",
         "type": "rss",
-        "category": "news",
+        "category": "security_news",
         "tags": [
             "ransomware",
             "headlines",
             "actors"
         ],
-        "src": "http://securityaffairs.co/wordpress/feed"
+        "src": "http://securityaffairs.co/wordpress/feed",
+        "has_content": true
     },
     {
         "name": "Qualys",
         "type": "rss",
-        "category": "news",
+        "category": "security_news",
         "tags": [
             "vendor",
             "headlines"
         ],
-        "src": "https://community.qualys.com/blogs/securitylabs/feeds/posts"
+        "src": "https://community.qualys.com/blogs/securitylabs/feeds/posts",
+        "has_content": true
     },
     {
         "name": "Security Week",
         "type": "rss",
-        "category": "news",
-        "src": "http://feeds.feedburner.com/Securityweek"
+        "category": "security_news",
+        "src": "http://feeds.feedburner.com/Securityweek",
+        "has_content": true
     },
     {
         "name": "The Hacker News",
         "type": "rss",
-        "category": "news",
+        "category": "security_news",
         "tags": [
             "news",
             "ransomware"
         ],
-        "src": "http://thehackernews.com/feeds/posts/default"
+        "src": "http://thehackernews.com/feeds/posts/default",
+        "has_content": true
     },
     {
         "name": "Trend Micro",
         "type": "rss",
-        "category": "news",
+        "category": "security_news",
         "tags": [
             "vendor",
             "headlines"
         ],
-        "src": "http://feeds.trendmicro.com/TrendMicroSimplySecurity"
+        "src": "http://feeds.trendmicro.com/TrendMicroSimplySecurity",
+        "has_content": true
     },
     {
         "name": "Mandiant",
         "type": "rss",
-        "category": "news",
+        "category": "security_news",
         "tags": [
             "vendor",
             "analysis",
             "threatactors",
             "vulnerabilities"
         ],
-        "src": "https://www.mandiant.com/resources/blog/rss.xml"
+        "src": "https://www.mandiant.com/resources/blog/rss.xml",
+        "has_content": true
     }
 ]
