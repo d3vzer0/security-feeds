@@ -3,28 +3,46 @@
         "name": "DLT Releases",
         "type": "rss",
         "category": "github_releases",
+        "tags": [
+            "tools",
+            "updates",
+            "releases"
+        ],
         "src": "https://github.com/dlt-hub/dlt/releases.atom",
         "has_content": true
     },
     {
-        "name": "Bleeping Computers",
+        "name": "BleepingComputer",
         "type": "rss",
         "category": "security_news",
-        "src": "http://www.bleepingcomputer.com/feed/",
+        "tags": [
+            "news",
+            "headlines"
+        ],
+        "src": "https://www.bleepingcomputer.com/feed/",
         "has_content": true
     },
     {
-        "name": "Cyber Scoop",
+        "name": "CyberScoop",
         "type": "rss",
         "category": "security_news",
-        "src": "https://www.cyberscoop.com/feed/",
+        "tags": [
+            "news",
+            "headlines"
+        ],
+        "src": "https://cyberscoop.com/feed/",
         "has_content": false
     },
     {
         "name": "Dark Reading",
         "type": "rss",
         "category": "security_news",
-        "src": "http://www.darkreading.com/rss/all.xml"
+        "tags": [
+            "news",
+            "headlines"
+        ],
+        "src": "https://www.darkreading.com/rss.xml",
+        "has_content": true
     },
     {
         "name": "Krebs on Security",
@@ -34,7 +52,7 @@
             "headlines",
             "blog"
         ],
-        "src": "http://krebsonsecurity.com/feed/",
+        "src": "https://krebsonsecurity.com/feed/",
         "has_content": true
     },
     {
@@ -70,21 +88,14 @@
         "has_content": true
     },
     {
-        "name": "Qualys",
+        "name": "SecurityWeek",
         "type": "rss",
         "category": "security_news",
         "tags": [
-            "vendor",
+            "news",
             "headlines"
         ],
-        "src": "https://community.qualys.com/blogs/securitylabs/feeds/posts",
-        "has_content": true
-    },
-    {
-        "name": "Security Week",
-        "type": "rss",
-        "category": "security_news",
-        "src": "http://feeds.feedburner.com/Securityweek",
+        "src": "https://feeds.feedburner.com/securityweek",
         "has_content": true
     },
     {
@@ -95,7 +106,7 @@
             "news",
             "ransomware"
         ],
-        "src": "http://thehackernews.com/feeds/posts/default",
+        "src": "https://feeds.feedburner.com/TheHackersNews",
         "has_content": true
     },
     {
@@ -120,6 +131,2213 @@
             "vulnerabilities"
         ],
         "src": "https://www.mandiant.com/resources/blog/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "SpecterOps - BloodHound",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "bloodhound",
+            "blog"
+        ],
+        "src": "https://specterops.io/blog/category/bloodhound/feed/",
+        "has_content": true
+    },
+    {
+        "name": "SpecterOps - Research",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "research",
+            "blog"
+        ],
+        "src": "https://specterops.io/blog/category/research/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Bishop Fox",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://bishopfox.com/feeds/blog.rss",
+        "has_content": true
+    },
+    {
+        "name": "TrustedSec",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://trustedsec.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "Black Hills InfoSec",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://www.blackhillsinfosec.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Rapid7",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.rapid7.com/rss/",
+        "has_content": true
+    },
+    {
+        "name": "MDSec",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://www.mdsec.co.uk/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Outflank",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://outflank.nl/blog/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Pen Test Partners",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://www.pentestpartners.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "SensePost",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://sensepost.com/blog/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "NetSPI",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://www.netspi.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Praetorian",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://www.praetorian.com/blog/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Watchtowr Labs",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://labs.watchtowr.com/rss/",
+        "has_content": true
+    },
+    {
+        "name": "Hack The Box - Red Team",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://www.hackthebox.com/rss/blog/red-teaming",
+        "has_content": true
+    },
+    {
+        "name": "PortSwigger Research",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://portswigger.net/research/rss",
+        "has_content": true
+    },
+    {
+        "name": "Elastic Security Labs",
+        "type": "rss",
+        "category": "malware",
+        "tags": [
+            "malware",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://www.elastic.co/security-labs/rss/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Unit 42",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://unit42.paloaltonetworks.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "CrowdStrike",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://www.crowdstrike.com/blog/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Recorded Future",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://www.recordedfuture.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "tl;dr sec",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "newsletter",
+            "red-team",
+            "offensive-security"
+        ],
+        "src": "https://rss.beehiiv.com/feeds/xgTKUmMmUm.xml",
+        "has_content": true
+    },
+    {
+        "name": "0xdf hacks stuff",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://0xdf.gitlab.io/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "0xv1n",
+        "type": "rss",
+        "category": "security_tools",
+        "tags": [
+            "tools",
+            "blog"
+        ],
+        "src": "https://0xv1n.github.io/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "Alexander Popov",
+        "type": "rss",
+        "category": "security_tools",
+        "tags": [
+            "tools",
+            "blog"
+        ],
+        "src": "https://a13xp0p0v.github.io/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Ackee Blockchain",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog",
+            "blockchain"
+        ],
+        "src": "https://ackee.xyz/blog/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Splunk Security Announcements",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "vendor"
+        ],
+        "src": "https://advisory.splunk.com/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Android Offensive Security Blog",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "android",
+            "blog"
+        ],
+        "src": "https://androidoffsec.withgoogle.com/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "Stories by assume-breach on Medium",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog",
+            "medium"
+        ],
+        "src": "https://assume-breach.medium.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "blag",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://avi.im/blag/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "AWS Security Digest",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "aws",
+            "cloud"
+        ],
+        "src": "https://awssecuritydigest.com/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "BadOption.eu",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://badoption.eu/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Binary Ninja",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "reverse-engineering",
+            "tools"
+        ],
+        "src": "https://binary.ninja/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "The Bitwarden Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "vendor",
+            "blog"
+        ],
+        "src": "https://bitwarden.com/blog/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Blog on 1Password Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "vendor",
+            "blog"
+        ],
+        "src": "https://blog.1password.com/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "Bad Sector Labs Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.badsectorlabs.com/feeds/all.atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "Chromium Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "browser",
+            "blog"
+        ],
+        "src": "https://blog.chromium.org/feeds/posts/default",
+        "has_content": true
+    },
+    {
+        "name": "The Cloudflare Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "vendor",
+            "cloud"
+        ],
+        "src": "https://blog.cloudflare.com/introducing-har-sanitizer-secure-har-sharing/rss",
+        "has_content": true
+    },
+    {
+        "name": "A Few Thoughts on Cryptographic Engineering",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "cryptography",
+            "blog"
+        ],
+        "src": "https://blog.cryptographyengineering.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Stories by delivr.to on Medium",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog",
+            "medium"
+        ],
+        "src": "https://blog.delivr.to/feed",
+        "has_content": true
+    },
+    {
+        "name": "Didier Stevens",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.didierstevens.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Doyensec's Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.doyensec.com/atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "exploits.club",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "exploitation",
+            "blog"
+        ],
+        "src": "https://blog.exploits.club/rss/",
+        "has_content": true
+    },
+    {
+        "name": "Fox-IT International blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.fox-it.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Include Security Research Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.includesecurity.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "NVISO Labs",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.nviso.eu/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Open Threat Research",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "threat-intel",
+            "blog"
+        ],
+        "src": "https://blog.openthreatresearch.com/rss/",
+        "has_content": true
+    },
+    {
+        "name": "Pwned Labs Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.pwnedlabs.io/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "Qualys Security Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "vendor",
+            "blog"
+        ],
+        "src": "https://blog.qualys.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "Quarkslab's blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.quarkslab.com/feeds/all.atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "SCRT Team Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.scrt.ch/feed/",
+        "has_content": true
+    },
+    {
+        "name": "SySS Tech Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.syss.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "Cisco Talos Blog",
+        "type": "rss",
+        "category": "malware",
+        "tags": [
+            "malware",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://blog.talosintelligence.com/rss/",
+        "has_content": true
+    },
+    {
+        "name": "Thinkst Thoughts",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://blog.thinkst.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "The Trail of Bits Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.trailofbits.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Washi",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.washi.dev/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "WhiteFlag",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://blog.whiteflag.io/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "XPN InfoSec Blog",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://blog.xpnsec.com/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "The Official Microsoft Blog",
+        "type": "rss",
+        "category": "security_news",
+        "tags": [
+            "news",
+            "headlines",
+            "vendor"
+        ],
+        "src": "https://blogs.microsoft.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "br0k3nlab",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://br0k3nlab.com/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "BREAKDEV",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://breakdev.org/rss/",
+        "has_content": true
+    },
+    {
+        "name": "bugs.xdavidhu.me",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://bugs.xdavidhu.me/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Censys",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://censys.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Certitude Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://certitude.consulting/blog/en/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Le Bron Does Security?",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://chesterlebron.blogspot.com/feeds/posts/default",
+        "has_content": true
+    },
+    {
+        "name": "Stories by CICADA8 on Medium",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog",
+            "medium"
+        ],
+        "src": "https://cicada-8.medium.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "The CircleCI Blog Feed",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "vendor",
+            "blog"
+        ],
+        "src": "https://circleci.com/blog/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "The Citizen Lab",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://citizenlab.ca/feed/",
+        "has_content": true
+    },
+    {
+        "name": "clearbluejar",
+        "type": "rss",
+        "category": "security_tools",
+        "tags": [
+            "tools",
+            "blog"
+        ],
+        "src": "https://clearbluejar.github.io/feed",
+        "has_content": true
+    },
+    {
+        "name": "Cloudbrothers",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "cloud",
+            "blog"
+        ],
+        "src": "https://cloudbrothers.info/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "CODE WHITE",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://code-white.com/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "Cofense",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://cofense.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "computers are bad",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://computer.rip/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "Computer Security Group",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://comsec.ethz.ch/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Connor McGarr's Blog",
+        "type": "rss",
+        "category": "security_tools",
+        "tags": [
+            "tools",
+            "blog"
+        ],
+        "src": "https://connormcgarr.github.io/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Stories by Florian Roth on Medium",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog",
+            "medium"
+        ],
+        "src": "https://cyb3rops.medium.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "Changes for RFC3442",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "standards"
+        ],
+        "src": "https://datatracker.ietf.org/feed/document-changes/rfc3442/",
+        "has_content": true
+    },
+    {
+        "name": "DAY[0]",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://dayzerosec.com/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Decoder's Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://decoder.cloud/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Detect FYI - Medium",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog",
+            "medium"
+        ],
+        "src": "https://detect.fyi/feed",
+        "has_content": true
+    },
+    {
+        "name": "Discord Blog",
+        "type": "rss",
+        "category": "security_news",
+        "tags": [
+            "news",
+            "headlines",
+            "vendor"
+        ],
+        "src": "https://discord.com/blog/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "DoublePulsar - Medium",
+        "type": "rss",
+        "category": "security_news",
+        "tags": [
+            "news",
+            "headlines",
+            "medium"
+        ],
+        "src": "https://doublepulsar.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "Eaton Works Feed",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://eaton-works.com/feed.atom",
+        "has_content": true
+    },
+    {
+        "name": "Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://evotec.xyz/feed/",
+        "has_content": true
+    },
+    {
+        "name": "FalconForce",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://falconforce.nl/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Have I Been Pwned latest breaches",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "breaches"
+        ],
+        "src": "https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches",
+        "has_content": true
+    },
+    {
+        "name": "FORTBRIDGE",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://fortbridge.co.uk/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Framework Blog",
+        "type": "rss",
+        "category": "security_news",
+        "tags": [
+            "news",
+            "headlines",
+            "vendor"
+        ],
+        "src": "https://frame.work/blog.rss",
+        "has_content": true
+    },
+    {
+        "name": "Daniele Antonioli",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://francozappa.github.io/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "freenginx news",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "news"
+        ],
+        "src": "https://freenginx.org/index.rss",
+        "has_content": true
+    },
+    {
+        "name": "Frida - A world-class dynamic instrumentation toolkit",
+        "type": "rss",
+        "category": "security_tools",
+        "tags": [
+            "tools",
+            "instrumentation",
+            "blog"
+        ],
+        "src": "https://frida.re/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Pelican - A Python Static Site Generator",
+        "type": "rss",
+        "category": "security_tools",
+        "tags": [
+            "tools",
+            "blog"
+        ],
+        "src": "https://getpelican.com/feeds/all.atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "Culbert Report",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://git.culbertreport.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "Ludus releases",
+        "type": "rss",
+        "category": "security_tools",
+        "tags": [
+            "tools",
+            "releases"
+        ],
+        "src": "https://gitlab.com/badsectorlabs/ludus/-/releases.atom",
+        "has_content": true
+    },
+    {
+        "name": "The Go Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://go.dev/blog/feed.atom",
+        "has_content": true
+    },
+    {
+        "name": "Good Workaround!",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://goodworkaround.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Graham Helton",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://grahamhelton.com/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "Hacking The Cloud",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "cloud",
+            "blog"
+        ],
+        "src": "https://hackingthe.cloud/feed_rss_created.xml",
+        "has_content": true
+    },
+    {
+        "name": "hausec",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://hausec.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "How To Market A Game",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://howtomarketagame.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Zhongquan Li's blogs",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://imlzq.com/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Bad Sector Labs",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "mastodon"
+        ],
+        "src": "https://infosec.exchange/@badsectorlabs.rss",
+        "has_content": true
+    },
+    {
+        "name": "Clement Labro",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "mastodon"
+        ],
+        "src": "https://infosec.exchange/@itm4n.rss",
+        "has_content": true
+    },
+    {
+        "name": "itm4n's blog",
+        "type": "rss",
+        "category": "security_tools",
+        "tags": [
+            "tools",
+            "blog"
+        ],
+        "src": "https://itm4n.github.io/feed",
+        "has_content": true
+    },
+    {
+        "name": "Jackson T.",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://jackson-t.com/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "jakewnuk.com",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://jakewnuk.com/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "Mickey's Blogs",
+        "type": "rss",
+        "category": "security_tools",
+        "tags": [
+            "tools",
+            "blog"
+        ],
+        "src": "https://jhftss.github.io/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Cognisys Group Labs",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://labs.cognisys.group/feed",
+        "has_content": true
+    },
+    {
+        "name": "lcamtuf's thing",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://lcamtuf.substack.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "Let's Encrypt",
+        "type": "rss",
+        "category": "security_news",
+        "tags": [
+            "news",
+            "headlines",
+            "vendor"
+        ],
+        "src": "https://letsencrypt.org/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "maia blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://maia.crimew.gay/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "malacupa.com",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://malacupa.com/atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "MALoney (It's in the name)",
+        "type": "rss",
+        "category": "malware",
+        "tags": [
+            "malware",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://malwaremaloney.blogspot.com/feeds/posts/default",
+        "has_content": true
+    },
+    {
+        "name": "Mayfly",
+        "type": "rss",
+        "category": "security_tools",
+        "tags": [
+            "tools",
+            "blog"
+        ],
+        "src": "https://mayfly277.github.io/feed",
+        "has_content": true
+    },
+    {
+        "name": "Stories by bilal al-qurneh on Medium",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog",
+            "medium"
+        ],
+        "src": "https://medium.com/@0xcc00/feed",
+        "has_content": true
+    },
+    {
+        "name": "Stories by Tal Be'ery on Medium",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog",
+            "medium"
+        ],
+        "src": "https://medium.com/@TalBeerySec/feed",
+        "has_content": true
+    },
+    {
+        "name": "Stories by MITRE Caldera on Medium",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog",
+            "medium"
+        ],
+        "src": "https://medium.com/@mitrecaldera/feed",
+        "has_content": true
+    },
+    {
+        "name": "MetalBear",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://metalbear.co/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "Minder-Security",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://minder-security.ghost.io/rss/",
+        "has_content": true
+    },
+    {
+        "name": "Matthew Garrett",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://mjg59.dreamwidth.org/data/rss",
+        "has_content": true
+    },
+    {
+        "name": "MrBruh's Epic Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://mrbruh.com/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "Neil Panchal",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://neil.computer/rss/",
+        "has_content": true
+    },
+    {
+        "name": "Neil Madden",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://neilmadden.blog/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Neodyme's Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://neodyme.io/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "NixOS News",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "news"
+        ],
+        "src": "https://nixos.org/blog/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "No Starch Press",
+        "type": "rss",
+        "category": "security_news",
+        "tags": [
+            "news",
+            "headlines"
+        ],
+        "src": "https://nostarch.com/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "Objective-See's Blog",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://objective-see.org/rss",
+        "has_content": true
+    },
+    {
+        "name": "OpenTofu Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://opentofu.org/blog/atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "OSV Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "vulnerabilities",
+            "blog"
+        ],
+        "src": "https://osv.dev/blog/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "Outpost24",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://outpost24.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "ownCloud",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "vendor",
+            "blog"
+        ],
+        "src": "https://owncloud.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Paged Out! Magazine",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "magazine"
+        ],
+        "src": "https://pagedout.institute/atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "Almost Secure",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://palant.info/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "Cloud Chronicles",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "cloud",
+            "blog"
+        ],
+        "src": "https://permiso.io/blog/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "Peter Gabaldon",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://pgj11.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "Pluralistic: Daily links from Cory Doctorow",
+        "type": "rss",
+        "category": "security_news",
+        "tags": [
+            "news",
+            "headlines"
+        ],
+        "src": "https://pluralistic.net/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Podman Desktop Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://podman-desktop.io/blog/atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "Research Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://projectblack.io/blog/rss/",
+        "has_content": true
+    },
+    {
+        "name": "Raesene's Ramblings",
+        "type": "rss",
+        "category": "security_tools",
+        "tags": [
+            "tools",
+            "blog"
+        ],
+        "src": "https://raesene.github.io/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Rasta Mouse",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://rastamouse.me/rss/",
+        "has_content": true
+    },
+    {
+        "name": "Red Canary",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://redcanary.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "RedHunt Labs",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://redhuntlabs.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Aura Research Division",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://research.aurainfosec.io/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "OALABS Research",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "malware",
+            "blog"
+        ],
+        "src": "https://research.openanalysis.net/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Reverse Engineering",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "reverse-engineering",
+            "blog"
+        ],
+        "src": "https://revers.engineering/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Unsupervised Learning",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "newsletter"
+        ],
+        "src": "https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml",
+        "has_content": true
+    },
+    {
+        "name": "Salt Security Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://salt.security/blog/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "Sansec - experts in eCommerce security",
+        "type": "rss",
+        "category": "malware",
+        "tags": [
+            "malware",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://sansec.io/atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "Pavel Yosifovich",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://scorpiosoftware.net/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Okta Security RSS Feed",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "vendor"
+        ],
+        "src": "https://sec.okta.com/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "secret club",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://secret.club/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Securelist",
+        "type": "rss",
+        "category": "malware",
+        "tags": [
+            "malware",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://securelist.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Datadog Security Labs",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://securitylabs.datadoghq.com/rss/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Shells.Systems",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://shells.systems/feed/",
+        "has_content": true
+    },
+    {
+        "name": "shellsharks All Content",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://shellsharks.com/feeds/all-feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Signal Blog",
+        "type": "rss",
+        "category": "security_news",
+        "tags": [
+            "news",
+            "headlines",
+            "vendor"
+        ],
+        "src": "https://signal.org/blog/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "simondotsh's infosec blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://simondotsh.com/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Spaceraccoon's Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://spaceraccoon.dev/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "Source Incite",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://srcincite.io/feed",
+        "has_content": true
+    },
+    {
+        "name": "Security Research & Defense",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://srd.cx/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Home on STAR Labs",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://starlabs.sg/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "Taggart Tech",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://taggart-tech.com/atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "Microsoft Security Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://thalpius.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "The Contractor",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://thecontractor.io/rss/",
+        "has_content": true
+    },
+    {
+        "name": "The DFIR Report",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "dfir",
+            "blog"
+        ],
+        "src": "https://thedfirreport.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "theevilbit blog",
+        "type": "rss",
+        "category": "security_tools",
+        "tags": [
+            "tools",
+            "blog"
+        ],
+        "src": "https://theevilbit.github.io/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "tweak Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://tweak-extension.com/blog/atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "Universal Shards",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://universalshards.com/feed",
+        "has_content": true
+    },
+    {
+        "name": "Victor on Software",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://victoronsoftware.com/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "White Knight Labs",
+        "type": "rss",
+        "category": "red_team",
+        "tags": [
+            "red-team",
+            "offensive-security",
+            "blog"
+        ],
+        "src": "https://whiteknightlabs.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Worth Doing Badly",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://worthdoingbadly.com/feed.xml",
+        "has_content": true
+    },
+    {
+        "name": "AccidentalRebel.com",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://www.accidentalrebel.com/feeds/all.atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "antiTree",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://www.antitree.com/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "Aqua",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "vendor",
+            "cloud"
+        ],
+        "src": "https://www.aquasec.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "CISA Blog",
+        "type": "rss",
+        "category": "security_news",
+        "tags": [
+            "news",
+            "headlines",
+            "government"
+        ],
+        "src": "https://www.cisa.gov/blog.xml",
+        "has_content": true
+    },
+    {
+        "name": "Cloud Native Computing Foundation",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "cloud",
+            "blog"
+        ],
+        "src": "https://www.cncf.io/feed/",
+        "has_content": true
+    },
+    {
+        "name": "David Buchanan's Blog",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://www.da.vidbuchanan.co.uk/blog/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "Datadog",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "vendor",
+            "blog"
+        ],
+        "src": "https://www.datadoghq.com/blog/index.xml",
+        "has_content": true
+    },
+    {
+        "name": "evilsocket",
+        "type": "rss",
+        "category": "vulnerability_research",
+        "tags": [
+            "vulnerability-research",
+            "research",
+            "blog"
+        ],
+        "src": "https://www.evilsocket.net/atom.xml",
+        "has_content": true
+    },
+    {
+        "name": "SentinelOne",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "vendor",
+            "blog"
+        ],
+        "src": "https://www.sentinelone.com/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Sygnia",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "blog"
+        ],
+        "src": "https://www.sygnia.co/feed/",
+        "has_content": true
+    },
+    {
+        "name": "Wiz Blog",
+        "type": "rss",
+        "category": "threat_intel",
+        "tags": [
+            "threat-intel",
+            "analysis",
+            "cloud",
+            "blog"
+        ],
+        "src": "https://www.wiz.io/feed/rss.xml",
+        "has_content": true
+    },
+    {
+        "name": "r/netsec",
+        "type": "reddit",
+        "category": "vulnerability_research",
+        "tags": [
+            "reddit",
+            "vulnerability-research",
+            "research"
+        ],
+        "src": "netsec",
+        "has_content": true
+    },
+    {
+        "name": "r/redteamsec",
+        "type": "reddit",
+        "category": "red_team",
+        "tags": [
+            "reddit",
+            "red-team",
+            "offensive-security"
+        ],
+        "src": "redteamsec",
         "has_content": true
     }
 ]
